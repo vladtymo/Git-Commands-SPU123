@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:git_commands"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="328" Width="590">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Background" Value="DarkRed"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <TextBlock Margin="10" TextAlignment="Center" FontSize="32" FontWeight="Bold" DockPanel.Dock="Top">Git Commands Refereneces</TextBlock>
 
-    </Grid>
+        <WrapPanel Margin="10">
+            <Button Click="CloneCommandBtnClick">Clone</Button>
+        </WrapPanel>
+    </DockPanel>
 </Window>

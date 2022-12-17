@@ -24,5 +24,10 @@ namespace git_commands
         {
             InitializeComponent();
         }
+
+        private void CloneCommandBtnClick(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
