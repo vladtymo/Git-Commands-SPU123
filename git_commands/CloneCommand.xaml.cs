@@ -10,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace git_commands
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CloneCommand.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CloneCommand : Window
     {
-        public MainWindow()
+        public CloneCommand()
         {
             InitializeComponent();
-        }
-
-        private void CloneCommandBtnClick(object sender, RoutedEventArgs e)
-        {
-            CloneCommand window = new CloneCommand();
-            window.Show();
         }
     }
 }
