@@ -1,0 +1,20 @@
+﻿<Window x:Class="git_commands.ConfigCommand"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:git_commands"
+        mc:Ignorable="d"
+        Title="ConfigCommand" Height="450" Width="800">
+
+    <StackPanel Margin="10">
+        <TextBlock TextAlignment="Center" FontSize="26">Config Command</TextBlock>
+        <TextBlock>git-config  Get and set repository or global options</TextBlock>
+        <TextBlock >DESCRIPTION</TextBlock>
+        <TextBlock TextWrapping="Wrap">
+You can query/set/replace/unset options with this command. The name is actually the section and the key separated by a dot, and the value will be escaped.
+
+Multiple lines can be added to an option by using the --add option. If you want to update or unset an option which can occur on multiple lines, a value-pattern (which is an extended regular expression, unless the --fixed-value option is given) needs to be given. Only the existing values that match the pattern are updated or unset. If you want to handle the lines that do not match the pattern, just prepend a single exclamation mark in front (see also EXAMPLES), but note that this only works when the --fixed-value option is not in use.
+        </TextBlock>
+    </StackPanel>
+</Window>
