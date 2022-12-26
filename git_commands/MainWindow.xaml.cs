@@ -30,5 +30,10 @@ namespace git_commands
             CloneCommand window = new CloneCommand();
             window.Show();
         }
+        private void ConfigCommandBtnClick(object sender, RoutedEventArgs e)
+        {
+            ConfigCommand window_config = new ConfigCommand();
+            window_config.Show();
+        }
     }
 }
