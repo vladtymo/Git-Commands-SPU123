@@ -38,7 +38,8 @@ namespace git_commands
 
         private void BranchCommandButton_Click(object sender, RoutedEventArgs e)
         {
-
+            BranchCommand wnd = new();
+            wnd.Show();
         }
     }
 }
