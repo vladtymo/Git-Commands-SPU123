@@ -21,6 +21,7 @@
         <WrapPanel Margin="10">
             <Button Click="CloneCommandBtnClick">Clone</Button>
             <Button Click="ConfigCommandBtnClick">Config</Button>
+            <Button Click="BranchCommandButton_Click">Branch</Button>
         </WrapPanel>
     </DockPanel>
 </Window>
