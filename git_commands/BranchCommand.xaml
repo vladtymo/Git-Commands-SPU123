@@ -1,0 +1,24 @@
+﻿<Window x:Class="git_commands.BranchCommand"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:git_commands"
+        mc:Ignorable="d"
+        Title="BranchCommand" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <TextBlock TextAlignment="Center" FontSize="26" Text="Branch Command"/>
+
+        <TextBlock Text="git-branch - List, create, or delete branches"/>
+        <TextBlock/>
+        <TextBlock FontSize="18" Text="Description"/>
+        <TextBlock TextWrapping="Wrap">
+            If --list is given, or if there are no non-option arguments, 
+            existing branches are listed; the current branch will be highlighted
+            in green and marked with an asterisk. 
+            Any branches checked out in linked worktrees will be highlighted in cyan
+            and marked with a plus sign. Option -r causes the remote-tracking
+            branches to be listed, and option -a shows both local and remote branches.
+        </TextBlock>
+    </StackPanel>
+</Window>
