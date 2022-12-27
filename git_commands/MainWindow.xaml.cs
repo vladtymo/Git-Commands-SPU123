@@ -35,5 +35,10 @@ namespace git_commands
             ConfigCommand window_config = new ConfigCommand();
             window_config.Show();
         }
+
+        private void BranchCommandButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
